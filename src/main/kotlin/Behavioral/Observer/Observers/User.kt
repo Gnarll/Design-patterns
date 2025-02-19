@@ -1,10 +1,10 @@
 package org.example.Behavioral.Observer.Subscribers
 
-import org.example.Behavioral.Observer.Publishers.Post
+import org.example.Behavioral.Observer.Publishers.EventType
+import org.example.Behavioral.Observer.Post
 
-class User(var nickname: String) : PostObserver {
-
-    override fun update(post: Post) {
-        println("${nickname} was notified about ${post}")
+data class User(var nickname: String) : PostObserver {
+    override fun update(event: EventType, post: Post) {
+        println("$this got event $event about the post $post")
     }
 }
