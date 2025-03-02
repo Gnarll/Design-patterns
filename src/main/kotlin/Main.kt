@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Behavioral.Observer.ObserverExecutor
+import org.example.Structural.Bridge.BridgeExecutor
 
 
 fun main() {
-    val adapterExecutor: PatternExecutor = ObserverExecutor()
-    adapterExecutor.main()
+    val bridgeExecutor: PatternExecutor = BridgeExecutor()
+    bridgeExecutor.main()
 }

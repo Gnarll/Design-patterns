@@ -1,0 +1,9 @@
+There are two packages: Abstraction and Implementation. Such names are needed just to
+understand the sense of pattern, abstraction here is
+just a client desired interface for the application
+within all necessary functionality. And Implementation
+is a low-level device(application) possibilities, which
+allow to make high-level(Abstraction) functions of application.
+
+Here is not an application with GUI(which should be perceived as an Abstraction), but a simple
+remote controller emulation for some devices.
