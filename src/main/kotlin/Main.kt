@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Structural.Bridge.BridgeExecutor
+import org.example.Structural.Composite.CompositeExecutor
 
 
 fun main() {
-    val bridgeExecutor: PatternExecutor = BridgeExecutor()
-    bridgeExecutor.main()
+    val compositeExecutor: PatternExecutor = CompositeExecutor()
+    compositeExecutor.main()
 }
