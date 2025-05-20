@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Structural.Composite.CompositeExecutor
+import org.example.Behavioral.ThreadSafeObserver.ThreadSafeObserverExecutor
 
 
 fun main() {
-    val compositeExecutor: PatternExecutor = CompositeExecutor()
-    compositeExecutor.main()
+    val threadSafeObserverExecutor: PatternExecutor = ThreadSafeObserverExecutor()
+    threadSafeObserverExecutor.main()
 }
