@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Behavioral.ThreadSafeObserver.ThreadSafeObserverExecutor
+import org.example.Creational.Factory.FactoryExecutor
 
 
 fun main() {
-    val threadSafeObserverExecutor: PatternExecutor = ThreadSafeObserverExecutor()
-    threadSafeObserverExecutor.main()
+    val factoryExecutor: PatternExecutor = FactoryExecutor()
+    factoryExecutor.main()
 }
