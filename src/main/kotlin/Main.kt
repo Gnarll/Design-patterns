@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Creational.Factory.FactoryExecutor
+import org.example.Behavioral.Strategy.StrategyExecutor
 
 
 fun main() {
-    val factoryExecutor: PatternExecutor = FactoryExecutor()
-    factoryExecutor.main()
+    val strategyExecutor: PatternExecutor = StrategyExecutor()
+    strategyExecutor.main()
 }
