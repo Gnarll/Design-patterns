@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Behavioral.Strategy.StrategyExecutor
+import org.example.Structural.Decorator.DecoratorExecutor
 
 
 fun main() {
-    val strategyExecutor: PatternExecutor = StrategyExecutor()
-    strategyExecutor.main()
+    val decoratorExecutor: PatternExecutor = DecoratorExecutor()
+    decoratorExecutor.main()
 }
