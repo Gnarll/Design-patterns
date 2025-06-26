@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Structural.Decorator.DecoratorExecutor
+import org.example.Structural.Proxy.ProxyExecutor
 
 
 fun main() {
-    val decoratorExecutor: PatternExecutor = DecoratorExecutor()
-    decoratorExecutor.main()
+    val proxyExecutor: PatternExecutor = ProxyExecutor()
+    proxyExecutor.main()
 }
