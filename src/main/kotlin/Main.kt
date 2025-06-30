@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Structural.Facade.FacadeExcecutor
+import org.example.Structural.Flyweight.FlyweightExecutor
 
 
 fun main() {
-    val facadeExcecutor: PatternExecutor = FacadeExcecutor()
-    facadeExcecutor.main()
+    val flyweightExecutor: PatternExecutor = FlyweightExecutor()
+    flyweightExecutor.main()
 }
