@@ -1,9 +1,9 @@
 package org.example
 
-import org.example.Structural.Flyweight.FlyweightExecutor
+import org.example.Behavioral.CoR.ChainExecutor
 
 
 fun main() {
-    val flyweightExecutor: PatternExecutor = FlyweightExecutor()
-    flyweightExecutor.main()
+    val chainExecutor: PatternExecutor = ChainExecutor()
+    chainExecutor.main()
 }
