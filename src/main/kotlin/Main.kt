@@ -1,9 +1,8 @@
 package org.example
 
-import org.example.Behavioral.CoR.ChainExecutor
-
-
+import org.example.Behavioral.Command.CommandExecutor
+ 
 fun main() {
-    val chainExecutor: PatternExecutor = ChainExecutor()
-    chainExecutor.main()
+    val commandExecutor: PatternExecutor = CommandExecutor()
+    commandExecutor.main()
 }
