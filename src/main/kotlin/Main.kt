@@ -1,8 +1,8 @@
 package org.example
 
-import org.example.Behavioral.Command.CommandExecutor
- 
+import org.example.Behavioral.Memento.MementoExecutor
+
 fun main() {
-    val commandExecutor: PatternExecutor = CommandExecutor()
-    commandExecutor.main()
+    val mementoExecutor: PatternExecutor = MementoExecutor()
+    mementoExecutor.main()
 }
