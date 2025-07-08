@@ -1,8 +1,8 @@
 package org.example
 
-import org.example.Behavioral.Memento.MementoExecutor
+import org.example.Behavioral.Mediator.MediatorExecutor
 
 fun main() {
-    val mementoExecutor: PatternExecutor = MementoExecutor()
-    mementoExecutor.main()
+    val mediatorExecutor: PatternExecutor = MediatorExecutor()
+    mediatorExecutor.main()
 }
