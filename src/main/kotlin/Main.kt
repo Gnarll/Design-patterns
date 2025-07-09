@@ -1,8 +1,8 @@
 package org.example
 
-import org.example.Behavioral.Mediator.MediatorExecutor
+import org.example.Behavioral.Iterator.IteratorExecutor
 
 fun main() {
-    val mediatorExecutor: PatternExecutor = MediatorExecutor()
-    mediatorExecutor.main()
+    val iteratorExecutor: PatternExecutor = IteratorExecutor()
+    iteratorExecutor.main()
 }
