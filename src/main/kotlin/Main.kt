@@ -1,8 +1,8 @@
 package org.example
 
-import org.example.Behavioral.Iterator.IteratorExecutor
+import org.example.Behavioral.State.StateExecutor
 
 fun main() {
-    val iteratorExecutor: PatternExecutor = IteratorExecutor()
-    iteratorExecutor.main()
+    val stateExecutor: PatternExecutor = StateExecutor()
+    stateExecutor.main()
 }
