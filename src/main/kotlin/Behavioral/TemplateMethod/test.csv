@@ -1,0 +1,8 @@
+id;name;age;email;department;salary;join_date
+1;John Smith;32;john.smith@example.com;IT;85000;15.05.2020
+2;Emily Johnson;28;emily.johnson@example.com;Marketing;72000;22.08.2021
+3;Michael Brown;41;michael.brown@example.com;HR;78000;10.03.2019
+4;Sarah Davis;35;sarah.davis@example.com;Finance;90000;05.11.2018
+5;David Wilson;27;david.wilson@example.com;IT;82000;30.01.2022
+6;Jessica Miller;38;jessica.miller@example.com;Sales;67000;14.07.2020
+7;Robert Taylor;31;robert.taylor@example.com;Marketing;75000;18.09.2021

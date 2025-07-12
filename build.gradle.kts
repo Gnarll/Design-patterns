@@ -12,6 +12,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("org.json:json:20210307")
+    implementation("org.apache.pdfbox:pdfbox:2.0.27")
 }
 
 tasks.test {

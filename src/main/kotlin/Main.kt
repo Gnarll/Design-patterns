@@ -1,8 +1,8 @@
 package org.example
 
-import org.example.Behavioral.State.StateExecutor
+import org.example.Behavioral.TemplateMethod.TemplateMethodExecutor
 
 fun main() {
-    val stateExecutor: PatternExecutor = StateExecutor()
-    stateExecutor.main()
+    val templateMethodExecutor: PatternExecutor = TemplateMethodExecutor()
+    templateMethodExecutor.main()
 }
