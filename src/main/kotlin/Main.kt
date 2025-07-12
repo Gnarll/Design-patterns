@@ -1,8 +1,8 @@
 package org.example
 
-import org.example.Behavioral.TemplateMethod.TemplateMethodExecutor
+import org.example.Creational.AbstractFactory.AbstractFactoryExecutor
 
 fun main() {
-    val templateMethodExecutor: PatternExecutor = TemplateMethodExecutor()
-    templateMethodExecutor.main()
+    val abstractFactoryExecutor: PatternExecutor = AbstractFactoryExecutor()
+    abstractFactoryExecutor.main()
 }
